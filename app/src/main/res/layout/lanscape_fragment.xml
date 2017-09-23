@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <EditText
+        android:id="@+id/username2"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center"
+        android:layout_above="@+id/password2"
+        android:layout_alignLeft="@+id/password2"
+        android:layout_alignStart="@+id/password2"
+        android:layout_marginBottom="37dp" />
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:textColorHint="#FFFFFF"
+        android:gravity="center"
+        android:layout_above="@+id/submit2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="156dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="21dp" />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:id="@+id/submit2"
+        android:text="Submit"
+        android:layout_marginRight="120dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/password2"
+        android:layout_alignEnd="@+id/password2" />
+</RelativeLayout>
